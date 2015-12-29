@@ -20,7 +20,7 @@ git submodule update
 ln -snf ~/.myzsh/zshrc ~/.zshrc
 ln -snf ~/.myzsh/lawrence.zsh-theme ~/.oh-my-zsh/themes/lawrence.zsh-theme
 
-ln -snf ~/.myzsh/zsh-syntax-highlighting ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions
+ln -snf ~/.myzsh/zsh-syntax-highlighting ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting
 ln -snf ~/.myzsh/zsh-autosuggestions ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions
 ```
 ####4.add fonts for prompt fancy
