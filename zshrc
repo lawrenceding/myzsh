@@ -80,6 +80,8 @@ export PATH="/usr/lib/lightdm/lightdm:/usr/local/sbin:/usr/local/bin:/usr/sbin:/
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+# the color can be set to "cryan, blue, yellow, magenta, red, green"
+AUTOSUGGESTION_HIGHLIGHT_COLOR='fg=cyan'
 # Enable autosuggestions automatically.
 zle-line-init() {
     zle autosuggest-start
