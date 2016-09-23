@@ -7,6 +7,7 @@ export ZSH=$HOME/.oh-my-zsh
 # time that oh-my-zsh is loaded.
 #ZSH_THEME="robbyrussell"
 ZSH_THEME="lawrence"
+#ZSH_THEME="agnoster"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -103,9 +104,9 @@ alias gps="git push"
 alias gpl="git pull"
 
 # the color can be set to "cryan, blue, yellow, magenta, red, green"
-AUTOSUGGESTION_HIGHLIGHT_COLOR='fg=cyan'
+#AUTOSUGGESTION_HIGHLIGHT_COLOR='fg=cyan'
 # Enable autosuggestions automatically.
-zle-line-init() {
-    zle autosuggest-start
-}
-zle -N zle-line-init
+#zle-line-init() {
+    #zle autosuggest-start
+#}
+#zle -N zle-line-init
